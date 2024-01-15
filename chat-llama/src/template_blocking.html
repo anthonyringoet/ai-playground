@@ -73,6 +73,7 @@
         event.preventDefault()
 
         event.target.querySelector("button").disabled = true
+        document.querySelector("div#response").innerHTML = ""
 
         const response = await fetch("/blocking", {
           method: "POST",

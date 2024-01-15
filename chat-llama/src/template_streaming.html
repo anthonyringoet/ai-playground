@@ -72,6 +72,8 @@
       const submitForm = async (formEvent) => {
         formEvent.preventDefault()
 
+        document.querySelector("div#response").innerHTML = ""
+
         const url = `/stream?query=${formEvent.target.query.value}`
         const source = new EventSource(url)
         source.onmessage = (event) => {

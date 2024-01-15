@@ -1,0 +1,6 @@
+name = "chat-llama"
+main = "src/index.ts"
+compatibility_date = "2023-12-18"
+
+[ai]
+binding = "AI"

@@ -1,0 +1,15 @@
+name = "rag"
+main = "src/index.ts"
+compatibility_date = "2023-12-18"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "rag-example"
+database_id = "cc363221-7fa9-40e8-8074-d2745c42ccd2"
+
+[[vectorize]]
+binding = "VECTORIZE_INDEX"
+index_name = "rag-example"
+
+[ai]
+binding = "AI"
